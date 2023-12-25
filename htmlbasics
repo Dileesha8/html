@@ -14,4 +14,82 @@
 <img src=""
 
 
+<!DOCTYPE>
+<html>
+  <head>
+    <title>forms</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td> <label>username</label></td>
+        <td><input type="text" placeholder="plz enter" required/></td>
+      </tr>
+      <tr>
+        <td><label>password:&nbsp;</label></td>
+        <td><input type="password" placeholder="plz enter pwd" required/</td>
+      </tr>
+      <tr>
+        <td> <label>gender:</label></td>
+        <td><input type="checkbox" name="gender"/><label>male</label></td>
+        <td><input type="checkbox" name="gender"/><label>female</label></td>
+    		<td><input type="checkbox" name="gender"/><label>prefer not</label </td>
+          <tr> 
+            <td><label>select course</label></td>
+            <td><select>
+              <option></option>
+  						<option>c</option>
+  							<option>c++</option>
+  							<option>java</option>
+  							<option>python</option>
+              </select>
+          </tr>
+          <tr>
+            <td><label>submit</label>
+            <td><input type="submit"/></td>
+          </tr>
+          <tr>
+            <td><label>reset</label>
+            <td><input type ="reset"/></td>
+          </tr>
+          </table>    
+    <form>
+<label>username</label>
+<input type="text" placeholder="plz enter ur username" required/> <br/>
+<!--password:-->
+<label>password:&nbsp;</label>
+<input type="password" placeholder="plz enter pwd" required/>
+<br/>
+<label>gender:</label>
+<!--<input type="text" placeholder="plz enter ur gender"/>-->
+<input type="radio">male</input>
+<input type="radio">female</input>
+<input type="radio">prefer not to say</input> <br/>
+<label> gender:</label>
+<input type="radio" name="gender"/><label>male</label>
+<input type="radio" name="gender"/><label>female</label>
+<input type="radio" name="gender"/><label>prefer not to say</label>
+<br>
+<label>gender:</label>
+<input type="checkbox" name="gender"/><label>male</label>
+<input type="checkbox" name="gender"/><label>female</label>
+<input type="checkbox" name="gender"/><label>prefer not to say</label><br/>
 
+<label>date</label>
+<input type ="date"><br/>
+      <label>select course</label>
+<select>
+  <option></option>
+  <option>c</option>
+  <option>c++</option>
+  <option>java</option>
+  <option>python</option>
+</select>
+<br/>
+<input type ="submit"/>
+<input type="reset"/>
+</form>
+</body>
+</html>
+
+  
